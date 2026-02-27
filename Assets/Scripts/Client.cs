@@ -154,6 +154,11 @@ public class Client : MonoBehaviour
         }
     }
 
+    public class UDP
+    {
+        
+    }
+
     private void InitializeClientData()
     {
         packetHandlers = new Dictionary<int, PacketHandler>()
